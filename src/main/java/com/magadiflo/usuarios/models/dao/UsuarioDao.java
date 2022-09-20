@@ -6,7 +6,8 @@ import org.springframework.data.repository.query.Param;
 import org.springframework.data.rest.core.annotation.RepositoryRestResource;
 import org.springframework.data.rest.core.annotation.RestResource;
 
-import com.magadiflo.usuarios.models.entity.Usuario;
+import com.magadiflo.commons.usuarios.models.entity.Usuario;
+
 
 // Indicamos dónde se va a exportar todos los métodos del crud repository: 
 // listar, listar por id, crear, modicar, eliminar y método personalizados que tengamos en esta interfaz
